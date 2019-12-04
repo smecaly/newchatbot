@@ -1,0 +1,39 @@
+{
+	"cognito": {
+		"poolId": "us-east-1:efcc1e89-0d5f-4a5e-8b9f-f718fc73c902",
+		"appUserPoolClientId": "",
+		"appUserPoolName": "",
+		"appDomainName": "",
+		"appUserPoolIdentityProvider": ""
+	},
+	"lex": {
+		"botName": "OpenBank_Demo",
+		"botAlias": "$LATEST",
+		"initialText": "Say Hi..",
+		"initialSpeechInstruction": "Say 'Hello' to get started.",
+		"reInitSessionAttributesOnRestart": false
+	},
+	"ui": {
+		"parentOrigin": "",
+		"toolbarTitle": "Open Banking",
+		"toolbarLogo": "",
+		"enableLogin": false,
+		"AllowSuperDangerousHTMLInMessage": false,
+		"shouldDisplayResponseCardTitle": false,
+		"pushInitialTextOnRestart": false,
+		"directFocusToBotInput": false,
+		"toolbarColor": "blue",
+		"avatarImageUrl": "https://imgvol.cdn.lcpdfr.com/uploads/monthly_2017_12/avatarcnsrg-800.png.32505b3c44f71a6f6a85b98e12cdabe0.png"
+	},
+	"polly": {
+		"voiceId": "Joey"
+	},
+	"recorder": {
+		"preset": "speech_recognition"
+	},
+	"iframe": {
+		"iframeOrigin": "",
+		"shouldLoadIframeMinimized": false,
+		"iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
+	}
+}
